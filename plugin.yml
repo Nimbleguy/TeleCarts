@@ -1,0 +1,15 @@
+name: TeleCarts
+main: aj.Java.TeleCarts.Main
+version: 3.0.0
+permissions:
+  telecarts.*:
+    description: All TeleCarts stuff!
+    children:
+      telecarts.make: true
+      telecarts.use: true
+  telecarts.use:
+    description: Allows you to use TeleCarts
+    default: true
+  telecarts.make:
+    description: Allows you to make a TeleCart sign
+    default: op
